@@ -51,183 +51,180 @@
     </div>
 
     <main id="top">
-      <section class="hero">
+      <div class="hs-pin" id="hs-pin">
         <video
-          class="hero-backdrop"
+          class="hero-backdrop hs-video"
           id="hero-video"
-          autoplay
           muted
-          loop
           playsinline
           preload="auto"
           aria-hidden="true"
         >
           <source src="/logo.mp4" type="video/mp4" />
         </video>
-        <div class="hero-vignette" aria-hidden="true"></div>
-        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-vignette hs-vignette" aria-hidden="true"></div>
 
-        <div class="hero-copy">
-          <p class="eyebrow">Ceramic tiles · Global export</p>
-          <h1 class="hero-title">
-            <span class="line"><span>From kiln</span></span>
-            <span class="line"><span>to container</span></span>
-            <span class="line"><span>to the world</span></span>
-          </h1>
-          <p class="hero-lede">
-            Watch the journey: tiles manufactured and packed, loaded into containers, then moved by
-            air cargo, road freight, and ocean vessels — every mode orbiting your global network.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Get an export quote</a>
-            <a class="btn btn-ghost" href="#journey">See the journey</a>
-          </div>
+        <div class="hs-track" id="hs-track">
+          <section class="hs-panel hero" data-section="top">
+            <div class="hero-grid" aria-hidden="true"></div>
+
+            <div class="hero-copy">
+              <p class="eyebrow">Ceramic tiles · Global export</p>
+              <h1 class="hero-title">
+                <span class="line"><span>From kiln</span></span>
+                <span class="line"><span>to container</span></span>
+                <span class="line"><span>to the world</span></span>
+              </h1>
+              <p class="hero-lede">
+                Watch the journey: tiles manufactured and packed, loaded into containers, then moved by
+                air cargo, road freight, and ocean vessels — every mode orbiting your global network.
+              </p>
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="#contact">Get an export quote</a>
+                <a class="btn btn-ghost" href="#journey">See the journey</a>
+              </div>
+            </div>
+
+            <div class="hero-meta">
+              <div><strong>Air</strong><span>Time-critical cargo</span></div>
+              <div><strong>Road</strong><span>Inland corridors</span></div>
+              <div><strong>Ocean</strong><span>Full container loads</span></div>
+            </div>
+          </section>
+
+          <section class="hs-panel section journey" id="journey" data-section="journey">
+            <div class="section-inner">
+              <p class="eyebrow dark">Factory to freight</p>
+              <h2 class="display">Tiles made here.<br />Delivered everywhere.</h2>
+              <p class="lede">
+                From pressing and glazing to crating and container stuffing — then air, road, and ocean
+                legs under one export plan.
+              </p>
+            </div>
+
+            <div class="journey-stage">
+              <div class="journey-steps">
+                <article>
+                  <span>01</span>
+                  <h3>Manufacture</h3>
+                  <p>Premium ceramic tiles fired and finished to export grade.</p>
+                </article>
+                <article>
+                  <span>02</span>
+                  <h3>Pack</h3>
+                  <p>Protected crating and palletising for long-haul transit.</p>
+                </article>
+                <article>
+                  <span>03</span>
+                  <h3>Container</h3>
+                  <p>Stuffed, sealed, and documented for customs clearance.</p>
+                </article>
+                <article>
+                  <span>04</span>
+                  <h3>Ship</h3>
+                  <p>Air cargo, road corridors, and ocean vessels — multimodal.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="hs-panel section services" id="services" data-section="services">
+            <div class="section-inner wide">
+              <p class="eyebrow dark">Capabilities</p>
+              <h2 class="display">Ceramic production meets global logistics.</h2>
+              <p class="lede">
+                Manufacture and finish tiles in-house, then move them by air, road, or ocean with one
+                export team and clear milestone visibility.
+              </p>
+
+              <div class="service-grid">
+                <article class="service">
+                  <h3>Tile manufacturing</h3>
+                  <p>Pressing, glazing, and firing lines tuned for export-grade ceramics.</p>
+                </article>
+                <article class="service">
+                  <h3>Export packing</h3>
+                  <p>Crating and palletising built for long-haul vibration and moisture control.</p>
+                </article>
+                <article class="service">
+                  <h3>Air cargo</h3>
+                  <p>Priority lanes for samples, launch SKUs, and time-critical replenishment.</p>
+                </article>
+                <article class="service">
+                  <h3>Ocean containers</h3>
+                  <p>FCL programmes for bulk tile programmes across major trade routes.</p>
+                </article>
+                <article class="service">
+                  <h3>Road freight</h3>
+                  <p>Factory-to-port and inland delivery on dedicated land corridors.</p>
+                </article>
+                <article class="service">
+                  <h3>Customs &amp; docs</h3>
+                  <p>Classification, certificates of origin, and clearance support at both ends.</p>
+                </article>
+              </div>
+            </div>
+          </section>
         </div>
-
-        <div class="hero-meta">
-          <div><strong>Air</strong><span>Time-critical cargo</span></div>
-          <div><strong>Road</strong><span>Inland corridors</span></div>
-          <div><strong>Ocean</strong><span>Full container loads</span></div>
-        </div>
-
-        <div class="scroll-hint" aria-hidden="true">
-          <span>Scroll</span>
-          <i></i>
-        </div>
-      </section>
-
-      <section class="section journey" id="journey">
-        <div class="section-inner">
-          <p class="eyebrow dark">Factory to freight</p>
-          <h2 class="display">Tiles made here.<br />Delivered everywhere.</h2>
-          <p class="lede">
-            From pressing and glazing to crating and container stuffing — then air, road, and ocean
-            legs under one export plan.
-          </p>
-        </div>
-
-        <div class="journey-stage">
-          <div class="journey-media">
-            <video
-              class="journey-video"
-              id="journey-video"
-              autoplay
-              muted
-              loop
-              playsinline
-              preload="auto"
-              aria-label="Ceramic tile export journey"
-            >
-              <source src="/journey.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div class="journey-steps">
-            <article>
-              <span>01</span>
-              <h3>Manufacture</h3>
-              <p>Premium ceramic tiles fired and finished to export grade.</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Pack</h3>
-              <p>Protected crating and palletising for long-haul transit.</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Container</h3>
-              <p>Stuffed, sealed, and documented for customs clearance.</p>
-            </article>
-            <article>
-              <span>04</span>
-              <h3>Ship</h3>
-              <p>Air cargo, road corridors, and ocean vessels — multimodal.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section services" id="services">
-        <div class="section-inner wide">
-          <p class="eyebrow dark">Capabilities</p>
-          <h2 class="display">Ceramic production meets global logistics.</h2>
-          <p class="lede">
-            Manufacture and finish tiles in-house, then move them by air, road, or ocean with one
-            export team and clear milestone visibility.
-          </p>
-
-          <div class="service-grid">
-            <article class="service">
-              <h3>Tile manufacturing</h3>
-              <p>Pressing, glazing, and firing lines tuned for export-grade ceramics.</p>
-            </article>
-            <article class="service">
-              <h3>Export packing</h3>
-              <p>Crating and palletising built for long-haul vibration and moisture control.</p>
-            </article>
-            <article class="service">
-              <h3>Air cargo</h3>
-              <p>Priority lanes for samples, launch SKUs, and time-critical replenishment.</p>
-            </article>
-            <article class="service">
-              <h3>Ocean containers</h3>
-              <p>FCL programmes for bulk tile programmes across major trade routes.</p>
-            </article>
-            <article class="service">
-              <h3>Road freight</h3>
-              <p>Factory-to-port and inland delivery on dedicated land corridors.</p>
-            </article>
-            <article class="service">
-              <h3>Customs &amp; docs</h3>
-              <p>Classification, certificates of origin, and clearance support at both ends.</p>
-            </article>
-          </div>
-        </div>
-      </section>
+      </div>
 
       <section class="section reliability" id="reliability">
         <div class="section-inner wide">
           <p class="eyebrow">Milestones</p>
           <h2 class="display light">Reliability at every milestone</h2>
 
-          <div class="feature-row">
-            <article class="feature">
-              <div class="feature-visual tracking" aria-hidden="true">
-                <span class="pulse"></span>
-                <span class="route"></span>
-              </div>
-              <h3>Real-time freight tracking</h3>
-              <p>Know exactly where cargo sits at every milestone — faster decisions, zero guesswork.</p>
-            </article>
+          <div class="reliability-layout">
+            <div class="feature-row">
+              <article class="feature">
+                <div class="feature-visual tracking" aria-hidden="true">
+                  <span class="pulse"></span>
+                  <span class="route"></span>
+                </div>
+                <h3>Real-time freight tracking</h3>
+              </article>
 
-            <article class="feature feature-support">
-              <div class="feature-visual bars" aria-hidden="true">
-                <i style="--c:#ff3b30; --h:62%"></i>
-                <i style="--c:#0a84ff; --h:88%"></i>
-                <i style="--c:#ffd60a; --h:45%"></i>
-                <i style="--c:#64d2ff; --h:70%"></i>
-                <i style="--c:#f5f5f7; --h:55%"></i>
-                <div class="liquid"></div>
-              </div>
-              <h3>24/7 customer support</h3>
-              <p>Real people, always available. Routine updates or urgent issues — we own the outcome.</p>
-            </article>
+              <article class="feature feature-support">
+                <div class="feature-visual bars" aria-hidden="true">
+                  <i style="--c:#ff3b30; --h:62%"></i>
+                  <i style="--c:#0a84ff; --h:88%"></i>
+                  <i style="--c:#ffd60a; --h:45%"></i>
+                  <i style="--c:#64d2ff; --h:70%"></i>
+                  <i style="--c:#f5f5f7; --h:55%"></i>
+                  <div class="liquid"></div>
+                </div>
+                <h3>24/7 customer support</h3>
+              </article>
 
-            <article class="feature">
-              <div class="feature-visual network" aria-hidden="true">
-                <span></span><span></span><span></span><span></span>
-              </div>
-              <h3>Global network coverage</h3>
-              <p>From APAC lanes to international corridors across every major trade route.</p>
-            </article>
+              <article class="feature">
+                <div class="feature-visual network" aria-hidden="true">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+                <h3>Global network coverage</h3>
+              </article>
+            </div>
+
+            <div class="reliability-media">
+              <video
+                class="reliability-video"
+                id="reliability-video"
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                aria-label="Export logistics showcase"
+              >
+                <source src="/reliability.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section trust" id="trust">
         <div class="section-inner">
-          <p class="eyebrow dark">Proof</p>
-          <h2 class="display">Trusted by businesses across APAC</h2>
-          <p class="lede">
+          <p class="eyebrow">Proof</p>
+          <h2 class="display light">Trusted by businesses across APAC</h2>
+          <p class="lede light">
             From first-time importers to high-volume shippers — we treat their freight like our
             own.
           </p>
@@ -277,7 +274,7 @@
             </label>
             <label>
               Route / cargo notes
-              <textarea name="notes" rows="4" placeholder="Origin, destination, mode preference…"></textarea>
+              <textarea name="notes" rows="3" placeholder="Origin, destination, mode preference…"></textarea>
             </label>
             <button class="btn btn-primary" type="submit">Request a quote</button>
           </form>
